@@ -1,0 +1,179 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.rc""\r\n"
+    "#include ""smith.rc2""  // non-App Studio edited resources\r\n"
+    "#if 0\r\n"
+    "#include "".\\tlb16\\smith.tlb""  // 16-bit: force dependency on .TLB file\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ABOUTDLL            ICON    DISCARDABLE     "smith.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_SMITH               BITMAP  DISCARDABLE     "smithctl.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX_SMITH DIALOG DISCARDABLE  34, 22, 260, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Smith Control"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Smith Control, Version 1.1",IDC_STATIC,40,10,170,8
+    LTEXT           "OLE Custom Control ",IDC_STATIC,40,25,170,8
+    DEFPUSHBUTTON   "OK",IDOK,220,10,32,14,WS_GROUP
+    LTEXT           "Copyright © 1997-2014, V. Iyer",IDC_STATIC,40,40,139,9
+END
+
+IDD_PROPPAGE_SMITH DIALOG DISCARDABLE  0, 0, 250, 62
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Show&Admittance",IDC_SHOWADMITTANCE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,8,60,8
+    LTEXT           "&VSWRCircle",IDC_STATIC,5,24,39,8
+    EDITTEXT        IDC_VSWRCIRCLE,46,23,27,12,ES_AUTOHSCROLL
+    LTEXT           "&QCircle",IDC_STATIC,5,36,39,8
+    EDITTEXT        IDC_QCIRCLE,46,35,27,12,ES_AUTOHSCROLL
+    CONTROL         "Show&Marker",IDC_SHOWMARKER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,78,8,51,8
+    LTEXT           "MarkerM",IDC_STATIC,90,24,29,8
+    EDITTEXT        IDC_MARKERM,124,23,27,12,ES_AUTOHSCROLL
+    LTEXT           "MarkerQ",IDC_STATIC,90,36,28,8
+    EDITTEXT        IDC_MARKERQ,124,35,27,12,ES_AUTOHSCROLL
+    LTEXT           "Z0",IDC_STATIC,188,32,12,8
+    EDITTEXT        IDC_Z0,202,30,27,12,ES_AUTOHSCROLL
+    CONTROL         "ResetAll",IDCRESETALL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,144,8,38,8
+    CONTROL         "Redraw",IDCREDRAW,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    200,8,38,8
+END
+
+IDD_PROPPAGE_DATA DIALOG DISCARDABLE  0, 0, 250, 62
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "CircleIndex",IDC_STATIC,13,11,33,8
+    EDITTEXT        IDC_CIRCLEINDEX,47,10,27,12,ES_AUTOHSCROLL
+    LTEXT           "CircleM",IDC_STATIC,13,23,28,8
+    EDITTEXT        IDC_CIRCLEM,47,22,27,12,ES_AUTOHSCROLL
+    LTEXT           "CircleQ",IDC_STATIC,13,35,29,8
+    EDITTEXT        IDC_CIRCLEQ,47,34,27,12,ES_AUTOHSCROLL
+    LTEXT           "CircleR",IDC_STATIC,13,47,28,8
+    EDITTEXT        IDC_CIRCLER,47,46,27,12,ES_AUTOHSCROLL
+    GROUPBOX        "Circle",IDC_CIRCLE,4,0,79,60
+    LTEXT           "DataM",IDC_STATIC,104,11,29,8
+    EDITTEXT        IDC_DATAM,138,10,27,12,ES_AUTOHSCROLL
+    LTEXT           "DataQ",IDC_STATIC,104,23,28,8
+    EDITTEXT        IDC_DATAQ,138,22,27,12,ES_AUTOHSCROLL
+    LTEXT           "NumPoints",IDC_STATIC,104,35,34,8
+    EDITTEXT        IDC_NUMPOINTS,138,34,27,12,ES_AUTOHSCROLL
+    LTEXT           "NumSets",IDC_STATIC,104,47,28,8
+    EDITTEXT        IDC_NUMSETS,138,46,27,12,ES_AUTOHSCROLL
+    GROUPBOX        "Data",IDC_STATIC,95,0,153,60
+    LTEXT           "ThisPoint",IDC_STATIC,175,11,29,8
+    EDITTEXT        IDC_THISPOINT,209,10,27,12,ES_AUTOHSCROLL
+    LTEXT           "ThisSet",IDC_STATIC,175,23,28,8
+    EDITTEXT        IDC_THISSET,209,22,27,12,ES_AUTOHSCROLL
+    CONTROL         "Sweep",IDC_SWEEP,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | 
+                    WS_TABSTOP,175,36,59,8
+    CONTROL         "DataReset",IDC_DATARESET,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,175,47,59,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SMITH               "Smith Control"
+    IDS_SMITH_PPG           "Smith Property Page"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SMITH_PPG_CAPTION   "General"
+    IDS_DATA_PPG            "Data"
+    IDS_DATA_PPG_CAPTION    "Data"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "afxres.rc"
+#include "smith.rc2"  // non-App Studio edited resources
+#if 0
+#include ".\tlb16\smith.tlb"  // 16-bit: force dependency on .TLB file
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

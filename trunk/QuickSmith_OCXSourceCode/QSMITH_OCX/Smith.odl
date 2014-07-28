@@ -1,0 +1,110 @@
+// smith.odl : type library source for OLE Custom Control project.
+
+// This file will be processed by the Make Type Library (mktyplib) tool to
+// produce the type library (smith.tlb) that will become a resource in
+// smith.ocx.
+
+#include <olectl.h>
+
+[ uuid(5AE352A3-E9A4-11D0-936D-444553540000), version(1.0),
+  helpstring("Smith OLE Custom Control module") ]
+library SmithLib
+{
+	importlib(STDOLE_TLB);
+	importlib(STDTYPE_TLB);
+    
+	typedef enum
+	{
+		[helpstring("Refl. Coef.-Polar")] RefPolar = 0,
+		[helpstring("Refl. Coef.-Rect")]  RefRect = 1,
+		[helpstring("Impedance-Polar")]   ImpPolar = 2,
+		[helpstring("Impedance-Rect")]    ImpRect = 3,
+		[helpstring("Admittance-Polar")]  AdmPolar = 4,
+		[helpstring("Admittance-Rect")]   AdmRect = 5
+
+	}enumDataType;
+
+
+	//  Primary dispatch interface for CSmithCtrl
+
+	[ uuid(5AE352A1-E9A4-11D0-936D-444553540000),
+	  helpstring("Dispatch interface for Smith Control") ]
+	dispinterface _DSmith
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CSmithCtrl)
+			[id(1)] boolean ShowHistory;
+			[id(2)] boolean ShowAdmittance;
+			[id(3)] short NumPoints;
+			[id(4)] float DataM;
+			[id(5)] float DataQ;
+			[id(6)] short ThisPoint;
+			[id(7)] boolean DataReset;
+			[id(8)] float VSWRCircle;
+			[id(9)] float QCircle;
+			[id(10)] boolean ShowMarker;
+			[id(11)] boolean ResetAll;
+			[id(12)] float MarkerM;
+			[id(13)] float MarkerQ;
+			[id(14)] boolean Redraw;
+			[id(15)] boolean Sweep;
+			[id(16)] float Z0;
+			[id(17)] float CircleM;
+			[id(18)] float CircleQ;
+			[id(19)] float CircleR;
+			[id(20)] OLE_COLOR CircleColor;
+			[id(21)] short CircleIndex;
+			[id(DISPID_BACKCOLOR), bindable, requestedit] OLE_COLOR BackColor;
+			[id(DISPID_FONT), bindable] IFontDisp* Font;
+			[id(DISPID_HWND)] short hWnd;
+			[id(22)] short ThisSet;
+			[id(DISPID_FORECOLOR)] OLE_COLOR ForeColor;
+			[id(23)] short NumSets;
+			//}}AFX_ODL_PROP
+
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CSmithCtrl)
+			//}}AFX_ODL_METHOD
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+	};
+
+	//  Event dispatch interface for CSmithCtrl
+
+	[ uuid(5AE352A2-E9A4-11D0-936D-444553540000),
+	  helpstring("Event interface for Smith Control") ]
+	dispinterface _DSmithEvents
+	{
+		properties:
+			//  Event interface has no properties
+
+		methods:
+			// NOTE - ClassWizard will maintain event information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_EVENT(CSmithCtrl)
+			[id(1)] void ClickIn(float* M, float* Q);
+			[id(2)] void ClickOut();
+			[id(3)] void MouseMove(float* M, float* Q);
+			[id(DISPID_KEYDOWN)] void KeyDown(short* KeyCode, short Shift);
+			[id(DISPID_KEYPRESS)] void KeyPress(short* KeyAscii);
+			[id(DISPID_KEYUP)] void KeyUp(short* KeyCode, short Shift);
+			//}}AFX_ODL_EVENT
+	};
+
+	//  Class information for CSmithCtrl
+
+	[ uuid(5AE352A0-E9A4-11D0-936D-444553540000),
+	  helpstring("Smith Control") ]
+	coclass Smith
+	{
+		[default] dispinterface _DSmith;
+		[default, source] dispinterface _DSmithEvents;
+	};
+
+
+	//{{AFX_APPEND_ODL}}
+};

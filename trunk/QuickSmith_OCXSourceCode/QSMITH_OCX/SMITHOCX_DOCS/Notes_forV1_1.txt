@@ -1,0 +1,19 @@
+SMITHOCX Version 1.1  6/15/2014
+
+Added property ShowHistory to turn on and off the
+displaying of historical parameter change effects 
+on the Smith Chart.  The history is limited to the
+last 30 of whatever that parameter changed on the
+chart.  Historical changes are shown in dashed lines
+while the current parameter effect is shown in a 
+solid line.  The history rolls over - so the 31st 
+change of a parameter will removed and replace the
+1st. This means older circles will disappear as 
+new ones are added.
+
+If ShowHistory is "OFF" the data is still collected
+and will be displayed if/when ShowHistory is selected 
+to be on.
+
+To clear the history first show it, then click the
+Redraw.

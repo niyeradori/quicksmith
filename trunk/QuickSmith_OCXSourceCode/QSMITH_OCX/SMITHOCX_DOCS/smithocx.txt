@@ -1,0 +1,18 @@
+"Smith.OCX" is a 32 bit activeX SmithChart control. It can be very easily incorporated 
+in Visual C++ programs. It is a smith chart module capable of plotting reflection
+coefficients data series and  VSWR/Q/Gain/Noise/Admittance circles.
+It has events that allows data of a point to be displayed by clicking on in with a mouse.
+This program was developed to be used as a plugin for RF CAD programs. 
+I would be happy to provide the source code and documentation.
+I have included a MSword file which explains the properties and events with examples.
+An article describing an earlier version was published in February 1997 issue of RF Design.
+
+Thank you.
+
+Sincerely 
+
+Nathan Iyer
+
+iyer@emi.net
+
+Phone (336) 282-2672  
