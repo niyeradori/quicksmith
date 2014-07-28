@@ -1,0 +1,115 @@
+[Setup Wizard Template]
+TemplateDate=6/15/2014 9:06:11 AM
+
+[Select Project and Options]
+txtProjFile=C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\VB5port_QS.vbp
+chkProjRebuild=0
+optBldSetup=True
+chkIncludeDEP=1
+optInternet=False
+optDEPOnly=False
+
+[Distribution Method]
+optFloppyTarg=False
+optSingleDirTarg=True
+optMultDirTarg=False
+
+[Single Directory]
+cboFloppyDrives=0
+cboFloppyDriveSize=0
+txtDirTarget=C:\Zvonar\Setup\
+
+[Internet Package]
+optRemoteSite=True
+optLocalSite=False
+txtLocalSite=
+
+[Data Access]
+chkUseJet=1
+chkUseODBC=0
+Isam0=
+
+[ActiveX Server Components]
+File1=
+
+[Confirm Dependencies]
+File1="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\SPIN32.OCX",True,32764
+File2="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\GRAPH32.OCX",True,32764
+File3="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\THREED32.OCX",True,32764
+File4="C:\Windows\SysWow64\COMDLG32.OCX",True,32764
+File5="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\GAUGE32.OCX",True,32764
+File6="C:\QuickSmith_SourceCode\QSMITH_OCX\Release\Smith.ocx",True,32764
+File7="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\Smith.ocx",True,32764
+File8=
+
+[Shared ActiveX Application]
+optDeployApplication=True
+optDeployShared=False
+optRemoteServer1=True
+optRemoteServer0=False
+
+[File Summary]
+File1="C:\Windows\system32\MSVBVM50.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File2="C:\Program Files (x86)\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\StdOle2.tlb",True,"$(WinSysPathSysFile)",$(TLBRegister),False
+File3="C:\Program Files (x86)\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\OleAut32.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File4="C:\Program Files (x86)\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\OlePro32.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File5="C:\Program Files (x86)\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\AsycFilt.dll",True,"$(WinSysPathSysFile)",,False
+File6="C:\Program Files (x86)\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\Ctl3d32.dll",True,"$(WinSysPathSysFile)",,False
+File7="C:\Program Files (x86)\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\ComCat.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File8="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\SPIN32.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File9="C:\Program Files (x86)\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\MFC40.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File10="C:\Program Files (x86)\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\MSVCRT40.dll",True,"$(WinSysPathSysFile)",,False
+File11="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\GRAPH32.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File12="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\gsw32.exe",True,"$(WinSysPath)",,True
+File13="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\gswdll32.dll",True,"$(WinSysPath)",,True
+File14="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\THREED32.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File15="C:\Windows\SysWow64\COMDLG32.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File16="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\GAUGE32.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File17="C:\QuickSmith_SourceCode\QSMITH_OCX\Release\Smith.ocx",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File18="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\QS.HLP",True,"$(AppPath)",,False
+File19="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\QSMITH_32.exe",True,"$(AppPath)",,False
+File20="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\QSMITH_32.DEP",True,"$(AppPath)",,False
+File21="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\1TO10.GAM",True,"$(AppPath)",,False
+File22="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\SMITH.LIC",True,"$(AppPath)",,False
+File23="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\cip.bmp",True,"$(AppPath)",,False
+File24="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\cipv.bmp",True,"$(AppPath)",,False
+File25="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\cis.bmp",True,"$(AppPath)",,False
+File26="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\cisv.bmp",True,"$(AppPath)",,False
+File27="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\crp.bmp",True,"$(AppPath)",,False
+File28="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\crpv.bmp",True,"$(AppPath)",,False
+File29="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\crs.bmp",True,"$(AppPath)",,False
+File30="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\crsv.bmp",True,"$(AppPath)",,False
+File31="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\cv.bmp",True,"$(AppPath)",,False
+File32="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\dipole.gam",True,"$(AppPath)",,False
+File33="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\dipole.sch",True,"$(AppPath)",,False
+File34="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\empty.bmp",True,"$(AppPath)",,False
+File35="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\emptyv.bmp",True,"$(AppPath)",,False
+File36="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\EXAMPLE5.SCH",True,"$(AppPath)",,False
+File37="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\exm.hlp",True,"$(AppPath)",,False
+File38="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\gamma.bmp",True,"$(AppPath)",,False
+File39="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\i.bmp",True,"$(AppPath)",,False
+File40="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\iv.bmp",True,"$(AppPath)",,False
+File41="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\load.bmp",True,"$(AppPath)",,False
+File42="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\match.jpg",True,"$(AppPath)",,False
+File43="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\mylpf.gam",True,"$(AppPath)",,False
+File44="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\qsmithfaq.htm",True,"$(AppPath)",,False
+File45="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\r.bmp",True,"$(AppPath)",,False
+File46="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\r.jpg",True,"$(AppPath)",,False
+File47="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\README.TXT",True,"$(AppPath)",,False
+File48="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\rv.bmp",True,"$(AppPath)",,False
+File49="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\slug.bmp",True,"$(AppPath)",,False
+File50="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\slugv.bmp",True,"$(AppPath)",,False
+File51="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\stubo.bmp",True,"$(AppPath)",,False
+File52="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\stubs.bmp",True,"$(AppPath)",,False
+File53="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\TEST.S21",True,"$(AppPath)",,False
+File54="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\w.bmp",True,"$(AppPath)",,False
+File55="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\wv.bmp",True,"$(AppPath)",,False
+File56="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\x.bmp",True,"$(AppPath)",,False
+File57="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\x.jpg",True,"$(AppPath)",,False
+File58="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\xv.bmp",True,"$(AppPath)",,False
+File59="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\c.bmp",True,"$(AppPath)",,False
+File60="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\Z.sch",True,"$(AppPath)",,False
+File61="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\wins.hlp",True,"$(AppPath)",,False
+File62="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\DIP.GAM",True,"$(AppPath)",,False
+File63="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\FILTER.SCH",True,"$(AppPath)",,False
+File64="C:\Program Files (x86)\DevStudio\VB\QSMITH_VISUAL_BASIC\vb5port\MYLPF1.GAM",True,"$(AppPath)",,False
