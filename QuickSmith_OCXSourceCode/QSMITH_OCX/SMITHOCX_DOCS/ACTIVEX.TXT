@@ -1,0 +1,90 @@
+32 Bit Smith Chart Control ("Smith.ocx) 
+
+The 32 bit Control was developed to replace the 16 bit control for Version 4 and above 
+of Visual Basic. The 32 bit control also known as OCX control (later renamed to ActiveX),
+was designed to support many more application and software tools. The applications or tools
+that support a control is know as a container. Some of the containers for Smith ActiveX 
+tool are Visual Basic, Microsoft Access, Internet Explorer, Delphi.
+
+Windows 95 operating system requires that a control be properly registered in its registry 
+before the it can be placed in a Container. Most Containers come with a built-in registration 
+program. Alternately you may register it using REGSVR32.EXE supplied with the control.
+
+The Smith chart OCX control was designed such that it replaces the VBX control. Nevertheless 
+due to certain changes dictated by Microsoft there are some differences. 
+Listed below are some of the differences.
+
+Major differences between 32 Bit Smith Chart Control ("smith.ocx") and 16 Bit VBX Control 
+("smith.vbx").
+
+I) Two new properties have been added to the 32 bit version 
+
+1) NumSets Property
+2) ThisSet Property
+The data type is integer. Numset X NumPoints should be less than 4040.  
+
+Here is a test code for VB that draws 4 spirals on the smith chart.
+Rem Test routine for multiple sets of data using ActiveX Smith Control
+Rem "Numsets and Thisset" are two additional properties used to support this feature
+Rem Place a Smith(smith1) and Command(command1) control on a form.
+
+Private Sub Command1_Click()
+Smith1.NumSets = 4
+Smith1.NumPoints = 1006
+Smith1.ThisPoint = 0
+Smith1.Sweep = True
+
+
+Smith1.ThisSet = 1
+Smith1.ThisPoint = 0
+For i = 1 To 1000
+Smith1.DataM = i / 1000
+Smith1.DataQ = i
+Next i
+
+Smith1.ThisSet = 2
+Smith1.ThisPoint = 0
+Smith1.ForeColor = RGB(255, 0, 255)
+For i = 1 To 1000
+Smith1.DataM = i / 1100
+Smith1.DataQ = i
+Next i
+
+
+
+Smith1.ThisSet = 3
+Smith1.ThisPoint = 0
+Smith1.ForeColor = RGB(255, 0, 0)
+For i = 1 To 1000
+Smith1.DataM = i / 1200
+Smith1.DataQ = i
+Next i
+
+Smith1.ThisSet = 4
+Smith1.ThisPoint = 0
+Smith1.ForeColor = RGB(0, 255, 0)
+For i = 1 To 1000
+Smith1.DataM = i / 1300
+Smith1.DataQ = i
+Next i
+
+End Sub
+
+II) Due to architectural difference DrawM and DrawQ properties are no longer available.
+
+III) Mousepointer stock property is no longer supported.
+
+IV) Due to changes in programming architecture, it is no longer possible to see graphics 
+gradually changing size or position when their property values are changed. Every new draw 
+requires a refresh thus erases out the earlier drawings.
+It is similar to the VBX control property with a refresh command after property change.
+
+V)The new control comes with a license file. The .LIC file should be kept in the same 
+directory as the control and should not be distributed.
+
+
+
+Thanks.
+
+V.Iyer
+January 20,1998

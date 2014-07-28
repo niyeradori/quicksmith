@@ -1,0 +1,12 @@
+
+[MSVC Status File]
+Version=1.00
+ProjectType=11
+External=1
+DebugBuildCmd=NMAKE /f SMITH.MAK
+ReleaseBuildCmd=NMAKE /f SMITH.MAK
+RebuildOption=/a
+BuildMode=1
+TargetName=SMITH.DLL
+BrkptCount=0
+WatchCount=0

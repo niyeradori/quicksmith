@@ -1,0 +1,66 @@
+--------------------Configuration: Smith - Win32 Release--------------------
+Begining build with project "C:\QuickSmith_SourceCode\QSMITH_OCX\Smith.dsp", at root.
+Active configuration is Win32 (x86) Dynamic-Link Library (based on Win32 (x86) Dynamic-Link Library)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp".\Release/Smith.pch" /Yu"stdafx.h" /Fo".\Release/" /Fd".\Release/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "NDEBUG" /mktyplib203 /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x409 /fo".\Release/Smith.res" /d "NDEBUG" /d "_AFXDLL" "
+			"Browser Database Maker" with flags "/nologo /o".\Release/Smith.bsc" "
+			"COFF Linker for 80x86" with flags "/nologo /subsystem:windows /dll /incremental:no /pdb:".\Release/Smith.pdb" /machine:I386 /def:".\Smith.def" /out:".\Release/Smith.ocx" /implib:".\Release/Smith.lib" "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating command line "midl.exe /nologo /D "NDEBUG" /tlb ".\Release/Smith.tlb" /mktyplib203 /win32 "C:\QuickSmith_SourceCode\QSMITH_OCX\Smith.odl"" 
+Creating command line "rc.exe /l 0x409 /fo".\Release/Smith.res" /i ".\Release" /d "NDEBUG" /d "_AFXDLL" "C:\QuickSmith_SourceCode\QSMITH_OCX\Smith.rc"" 
+Creating temp file "C:\Users\Owner\AppData\Local\Temp\RSP4859.tmp" with contents </nologo /MD /W4 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp".\Release/Smith.pch" /Yu"stdafx.h" /Fo".\Release/" /Fd".\Release/" /FD /c 
+"C:\QuickSmith_SourceCode\QSMITH_OCX\Datappg.cpp"
+"C:\QuickSmith_SourceCode\QSMITH_OCX\Smith.cpp"
+"C:\QuickSmith_SourceCode\QSMITH_OCX\Smithctl.cpp"
+"C:\QuickSmith_SourceCode\QSMITH_OCX\Smithppg.cpp"
+>
+Creating command line "cl.exe @C:\Users\Owner\AppData\Local\Temp\RSP4859.tmp" 
+Creating temp file "C:\Users\Owner\AppData\Local\Temp\RSP485A.tmp" with contents </nologo /MD /W4 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp".\Release/Smith.pch" /Yc"stdafx.h" /Fo".\Release/" /Fd".\Release/" /FD /c 
+"C:\QuickSmith_SourceCode\QSMITH_OCX\stdafx.cpp"
+>
+Creating command line "cl.exe @C:\Users\Owner\AppData\Local\Temp\RSP485A.tmp" 
+Creating temp file "C:\Users\Owner\AppData\Local\Temp\RSP485B.tmp" with contents </nologo /subsystem:windows /dll /incremental:no /pdb:".\Release/Smith.pdb" /machine:I386 /def:".\Smith.def" /out:".\Release/Smith.ocx" /implib:".\Release/Smith.lib" 
+.\Release\Datappg.obj
+.\Release\Smith.obj
+.\Release\Smithctl.obj
+.\Release\Smithppg.obj
+.\Release\stdafx.obj
+.\Release\Smith.res>
+Creating command line "link.exe @C:\Users\Owner\AppData\Local\Temp\RSP485B.tmp" 
+Creating temp file "C:\Users\Owner\AppData\Local\Temp\RSP485C.bat" with contents <@echo off
+regsvr32 /s /c ".\Release\Smith.ocx"
+echo regsvr32 exec. time > ".\.\Release\regsvr32.trg"
+>
+Creating command line "C:\Users\Owner\AppData\Local\Temp\RSP485C.bat" 
+Creating Type Library...
+Processing C:\QuickSmith_SourceCode\QSMITH_OCX\Smith.odl
+Smith.odl
+Processing C:\Program Files (x86)\DevStudio\VC\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files (x86)\DevStudio\VC\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files (x86)\DevStudio\VC\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files (x86)\DevStudio\VC\INCLUDE\wtypes.idl
+wtypes.idl
+Compiling resources...
+Compiling...
+stdafx.cpp
+Compiling...
+Datappg.cpp
+Smith.cpp
+Smithctl.cpp
+Smithppg.cpp
+Generating Code...
+Linking...
+   Creating library .\Release/Smith.lib and object .\Release/Smith.exp
+Registering OLE control...
+
+
+
+Smith.ocx - 0 error(s), 0 warning(s)

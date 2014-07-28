@@ -1,0 +1,7 @@
+Full path for control build  6/14/2014
+
+C:\QuickSmith_SourceCode\QSMITH_CONTROL
+
+This build added the dashed circles and the 
+ShowHistory attribute. See Notes_forV1_1.txt
+
