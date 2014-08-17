@@ -1,5 +1,5 @@
+#summary Fixing ability to use WinHlp.
 #labels Phase-Deploy
-#Fixing ability to use WinHlp.
 You may not be able to open a .HLP file, here is how to fix that.
 = Introduction =
 
