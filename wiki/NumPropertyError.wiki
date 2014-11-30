@@ -1,0 +1,13 @@
+#summary One-sentence summary of this page.
+Num Property Divide by Zero error.
+= Introduction =
+If you see Num property (Divide by zero) error as you open Quicksmith, it is likely that you have a old version of "smith.ocx" file. To solve this problem go to c:\Windows\SysWOW64 directory find "smith.ocx" file and delete it. Then uninstall QuickSmith and reinstall it again.
+
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
