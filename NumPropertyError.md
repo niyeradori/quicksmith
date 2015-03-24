@@ -1,0 +1,1 @@
+If you see Num property (Divide by zero) error as you open Quicksmith, it is likely that you have a old version of "smith.ocx" file. To solve this problem go to c:\Windows\SysWOW64 directory find "smith.ocx" file and delete it. Then uninstall QuickSmith and re-install it again.
