@@ -3,7 +3,8 @@
 UPDATE
 
 QuickSmith has been re-written to work on Web on Mobile, it has all the features of the windows version plus more.
-Github link: https://github.com/niyeradori/QuickSmith-Web
+Github page: https://niyeradori.github.io/QuickSmith-Web/index.html
+Github repo: https://github.com/niyeradori/QuickSmith-Web
 
 Automatically exported from code.google.com/p/quicksmith
 QuickSmith is a Smith Chart based linear circuit simulation program for Microsoft Windows. QuickSmith was designed to perform a rapid and efficient Smith Chart calculation. It uses the advantage of Windows environment to provide friendlier way to simulate Graphical RF designs. Latest update 12/11/2014.
