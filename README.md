@@ -4,6 +4,7 @@ UPDATE
 
 QuickSmith has been re-written to work on Web on Mobile, it has all the features of the windows version plus more.
 Github page: https://niyeradori.github.io/QuickSmith-Web/index.html
+
 Github repo: https://github.com/niyeradori/QuickSmith-Web
 
 Automatically exported from code.google.com/p/quicksmith
