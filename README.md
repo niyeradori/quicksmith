@@ -34,5 +34,6 @@ John Zvonar helped migrate the code to work with 32/64 bit windows operating sys
 QuickSmith migration is not far from perfect but we will keep working at it. Please email us your experience.
 
 -Nathan Iyer
+niyer@sbcglobal.net
 
 PS- If you looking for the legacy code, click on "Downloads" Tab, select "Deprecated" and click on search.
